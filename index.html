@@ -18,12 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--шапка-->
     <header class="page-header">
-      <div class="container header">
+      <div class="container page-header__header">
         <nav class="nav">
           <a href="" class="logo"><span class="logo--color">Web</span>Studio</a>
           <ul class="nav__list">
@@ -70,14 +70,14 @@
           <div class="modal">
             <div class="modal__content">
               <button data-modal-close class="modal__btn">
-                <svg class="modal__icon-close">
+                <svg class="modal__icon">
                   <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
               </button>
               <p class="modal__title">
                 Оставьте свои данные, мы вам перезвоним
               </p>
-              <form name="modal__form form">
+              <form name="form">
                 <div class="form__field">
                   <label for="username" class="form__label">Имя </label>
                   <input
