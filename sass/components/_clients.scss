@@ -1,7 +1,5 @@
 .clients {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
 }
 
 .clients__item {
@@ -12,9 +10,8 @@
 .clients__link {
   transition: color $timing-function, border-color $timing-function;
 
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex(inline-flex);
+
   width: 170px;
   height: 92px;
   color: $clients-link_color;

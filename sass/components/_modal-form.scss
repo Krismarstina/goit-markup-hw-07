@@ -89,15 +89,14 @@
 }
 
 .checkbox__label {
-  display: inline-flex;
-  align-items: center;
+  @include centeredFlex(flex, center, none);
+
   line-height: 1.71;
   color: $secondary-text-color;
 }
 
 .checkbox__icon {
-  display: flex;
-  align-items: center;
+  @include centeredFlex(flex, center, none);
 
   width: 16px;
   height: 15px;
@@ -122,20 +121,8 @@
   color: $accent-color;
 }
 .form__btn {
+  @extend %btn;
   margin-top: 30px;
-  display: inline-block;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
-
-  color: $primary-white-color;
-  background-color: $accent-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  cursor: pointer;
 }

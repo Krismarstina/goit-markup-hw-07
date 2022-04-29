@@ -6,8 +6,7 @@
   transition: color $timing-function;
 
   color: $secondary-text-color;
-  display: flex;
-  align-items: center;
+  @include centeredFlex(flex, center, none);
 
   font-weight: 500;
   line-height: 1.14;

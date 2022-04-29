@@ -9,8 +9,7 @@
 }
 
 .box {
-  display: flex;
-  align-items: baseline;
+  @include centeredFlex(flex, baseline, none);
 }
 .box__address {
   margin-right: 70px;
@@ -79,12 +78,11 @@
 .join-us__link {
   transition: background-color $timing-function;
 
-  display: flex;
+  @include centeredFlex();
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   background-color: $footer-link-bg-color;
   color: $primary-white-color;
 
@@ -99,8 +97,7 @@
 }
 
 .form-footer {
-  display: flex;
-  align-items: flex-end;
+  @include centeredFlex(flex, flex-end, none);
   margin-left: 93px;
 }
 
@@ -134,6 +131,8 @@
 }
 
 .footer-btn__sign-up {
+  @include centeredFlex(flex, center, none);
+
   width: 200px;
   height: 50px;
   padding: 10px 28px;
@@ -145,8 +144,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
   color: $primary-white-color;
 

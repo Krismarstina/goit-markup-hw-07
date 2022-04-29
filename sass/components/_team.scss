@@ -48,12 +48,12 @@
 }
 
 .socials__link {
-  display: flex;
+  @include centeredFlex();
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
+
   color: #afb1b8;
   transition: color $timing-function, background-color $timing-function;
 
