@@ -21,8 +21,6 @@
 .footer__list {
   margin-top: 20px;
   font-style: normal;
-  margin-bottom: 60px;
-  width: 231px;
 }
 
 .footer__address {
@@ -98,7 +96,7 @@
 
 .form-footer {
   @include centeredFlex(flex, flex-end, none);
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .form-footer__field {

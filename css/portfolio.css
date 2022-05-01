@@ -288,8 +288,6 @@ img {
 .footer__list {
   margin-top: 20px;
   font-style: normal;
-  margin-bottom: 60px;
-  width: 231px;
 }
 
 .footer__address {
@@ -358,7 +356,7 @@ img {
   display: flex;
   align-items: flex-end;
   justify-content: none;
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .form-footer__field {

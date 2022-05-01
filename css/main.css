@@ -340,6 +340,18 @@ img {
   margin-bottom: 20px;
 }
 
+.form__checkbox {
+  width: 425px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__checkbox {
+  width: 425px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .checkbox__input {
   width: 1px;
   height: 1px;
@@ -464,7 +476,6 @@ img {
   width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
-  border: 1px solid #000000;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -607,8 +618,6 @@ img {
 .footer__list {
   margin-top: 20px;
   font-style: normal;
-  margin-bottom: 60px;
-  width: 231px;
 }
 
 .footer__address {
@@ -677,7 +686,7 @@ img {
   display: flex;
   align-items: flex-end;
   justify-content: none;
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .form-footer__field {
